@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: raylib
+Description: A simple and easy-to-use library to enjoy videogames programming
+URL: https://github.com/raysan5/raylib
+Version: 6.1-dev
+Libs: -L${libdir} -lraylib
+Libs.private: -lGL -lm -lpthread -ldl -lrt -lX11
+Cflags: -I${includedir}
