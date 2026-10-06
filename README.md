@@ -1,2 +1,3 @@
 # ralph
-arbitrarilyy-ruled berlekamp switching game demo
+
+arbitrarily-ruled berlekamp switching game demo
